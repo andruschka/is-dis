@@ -2,8 +2,7 @@
   "name": "is-dis",
   "version": "0.0.7",
   "description": "Tiny type/argument validation library.",
-  "main": "index.js",
-  "brwoser": "dist/is-dis.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "parcel test.html",
     "bundle": "rm -rf dist && parcel build index.js --no-source-maps",
@@ -15,6 +14,9 @@
   },
   "keywords": [
     "type",
+    "types",
+    "validator",
+    "check",
     "argument",
     "validation",
     "checking"
