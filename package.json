@@ -1,0 +1,31 @@
+{
+  "name": "is-dis",
+  "version": "0.0.7",
+  "description": "Tiny type/argument validation library.",
+  "main": "index.js",
+  "brwoser": "dist/is-dis.js",
+  "scripts": {
+    "start": "parcel test.html",
+    "bundle": "rm -rf dist && parcel build index.js --no-source-maps",
+    "prepublishOnly": "npm run bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andruschka/is-dis.git"
+  },
+  "keywords": [
+    "type",
+    "argument",
+    "validation",
+    "checking"
+  ],
+  "author": "andruschka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andruschka/is-dis/issues"
+  },
+  "homepage": "https://github.com/andruschka/is-dis#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
